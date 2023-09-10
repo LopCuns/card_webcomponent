@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Users web components</title>
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+  <form class="searchForm" id="searchForm" autocomplete="off">
+    <input type="search" placeholder="Ingresa el nombre del usuario..." class="searchForm__input" name="searchValue">
+    <input type="submit" value="Buscar" class="searchForm__submit">
+  </form>
+  <main class="main">
+    <h1 class="title">Usuarios registrados</h1>
+    <div class="users">
+      <jl-opencard data-id="1" data-phone="123456789" data-email="robo1gmail.com" data-img="https://robohash.org/1" data-name="Sófocles"></jl-opencard>
+      <jl-opencard data-id="2" data-phone="223456789" data-email="robo2gmail.com" data-img="https://robohash.org/2" data-name="Diogenes"></jl-opencard>
+      <jl-opencard data-id="3" data-phone="323456789" data-email="robo3gmail.com" data-img="https://robohash.org/3" data-name="Ulises"></jl-opencard>
+      <jl-opencard data-id="4" data-phone="423456789" data-email="robo4gmail.com" data-img="https://robohash.org/4" data-name="Aquileo"></jl-opencard>
+      <jl-opencard data-id="5" data-phone="523456789" data-email="robo5gmail.com" data-img="https://robohash.org/5" data-name="Laertes"></jl-opencard>
+      <jl-opencard data-id="6" data-phone="623456789" data-email="robo6gmail.com" data-img="https://robohash.org/6" data-name="Príamo"></jl-opencard>
+      <jl-opencard data-id="7" data-phone="723456789" data-email="robo7gmail.com" data-img="https://robohash.org/7" data-name="Héctor"></jl-opencard>
+      <jl-opencard data-id="8" data-phone="823456789" data-email="robo8gmail.com" data-img="https://robohash.org/8" data-name="Penelopea"></jl-opencard>
+      <jl-opencard data-id="9" data-phone="923456789" data-email="robo9gmail.com" data-img="https://robohash.org/9" data-name="Agamenón"></jl-opencard>
+      <jl-opencard data-id="10" data-phone="1023456789" data-email="robo10gmail.com" data-img="https://robohash.org/10" data-name="Telémaco"></jl-opencard>
+      <jl-opencard data-id="11" data-phone="1123456789" data-email="robo11gmail.com" data-img="https://robohash.org/11" data-name="Pándoro"></jl-opencard>
+      <jl-opencard data-id="12" data-phone="1223456789" data-email="robo12gmail.com" data-img="https://robohash.org/12" data-name="Ayante Telamonio"></jl-opencard>
+      <jl-opencard data-id="13" data-phone="1323456789" data-email="robo13gmail.com" data-img="https://robohash.org/13" data-name="Calipso"></jl-opencard>
+      <jl-opencard data-id="14" data-phone="1423456789" data-email="robo14gmail.com" data-img="https://robohash.org/14" data-name="Ayante Oileo"></jl-opencard>
+      <jl-opencard data-id="15" data-phone="1523456789" data-email="robo15gmail.com" data-img="https://robohash.org/15" data-name="Apolo"></jl-opencard>
+    </div>
+  </main>
+  <script src="scripts/component.js"></script>
+  <script src="scripts/form.js"></script>
+</body>
+</html>
